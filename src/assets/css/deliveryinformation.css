@@ -1,0 +1,116 @@
+.information {
+    padding-bottom: 0;
+}
+.information .head h2 {
+    color: #8DC63E;
+}
+.information .track-your-order {
+    background: #fff;
+    box-shadow: 0px 0px 6px #ccc;
+    border-radius: 20px;
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.information .bt-check-stts{
+    background-color: #8DC63E !important;
+    display: inline-block !important;
+    padding: 1.3rem 2.5rem!important;
+}
+
+.information .track-your-order ul.tracking {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+.information .track-your-order .inputField input {
+    color: #636060;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #00000021;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+}
+.information .track-your-order .inputField input:focus {
+    border: 2px solid #8dc63e !important;
+}
+.information .track-your-order ul.tracking li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.information .track-your-order ul.tracking li i {
+    margin-right: 5px;
+}
+.information .track-your-order ul.tracking li i.fa.fa-check {
+    background: #8DC63F;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    line-height: 25px;
+}
+.information .track-your-order ul.tracking li i.fa.fa-circle {
+    color: #CECECE;
+    background: #CECECE;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    line-height: 25px;
+}
+@media (max-width: 1100px) {
+    .information .track-your-order {
+        padding: 70px 20px;
+    }
+    .information .track-your-order ul.tracking li {
+        display: block;
+        margin-bottom: 14px;
+    }
+    .information .track-your-order .inputField input {
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .information .head h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .information .steps {
+        padding: 0px 122px;
+    }
+    .information .track-your-order ul.tracking {
+        text-align: initial;
+    }
+}
+@media (max-width: 480px) {
+    .information .track-your-order .inputField input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .information .steps {
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .information .steps {
+        padding: 0px 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .information .steps {
+        padding: 0px 0px;
+    }
+    .information .track-your-order ul.tracking li {
+        font-size: 12px;
+    }
+}

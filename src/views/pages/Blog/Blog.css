@@ -1,0 +1,160 @@
+.elearing_blog {
+	padding: 5rem 0;
+}
+
+.elearing_blog .card-eblogs-imgsss {
+	height: 250px;
+	object-fit: cover;
+}
+
+.elearing_blog .blogs_artcl {
+	font-size: 24px;
+	color: #1b75bb;
+	font-family: "Poppins-Medium";
+	display: -webkit-box;
+	max-width: 100%;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.elearing_blog .read_more {
+	color: #1b75bb;
+	font-size: 20px;
+	font-family: "Poppins-Medium";
+}
+
+.elearing_blog .card-eblogs {
+	border: 1px solid lightgray;
+	border-radius: 15px;
+}
+
+.elearing_blog .crd-inner {
+	padding: 2rem 1.5rem;
+}
+
+.blog-detail {
+	padding: 60px 0px;
+}
+
+.blog-detail .blog_box .blog_img img {
+	height: 430px;
+	width: 100%;
+	margin-bottom: 2rem;
+	object-fit: cover;
+}
+
+.blog-detail .blog_box .blog-header {
+	display: flex;
+	align-items: center;
+}
+
+.blog-detail .blog_box .blog-header p {
+	margin-right: 20px;
+	color: #777777;
+}
+
+.blog-detail .blog_box .blog-header p i {
+	color: #8dc63e;
+	margin-right: 8px;
+}
+
+.blog-detail .blog_box p {
+	font-size: 13px;
+}
+
+.blog-detail .blog_box .button-group a {
+	/* background: #f44a4a; */
+	color: #fff;
+	padding: 10px 13px;
+	border-radius: 5px;
+}
+
+.blog-detail .blog_box .button-group {
+	margin-top: 30px;
+}
+
+.blog-detail .recent-blog {
+	border-radius: 6px;
+	box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.blog-detail .recent-blog .heading {
+	padding-bottom: 10px;
+}
+
+.blog-detail .recent-blog .heading h3 {
+	font-family: "Poppins-Medium";
+	font-size: 20px;
+}
+
+.blog-detail .recent-blog .recent-box {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.blog-detail .recent-blog .recent-box .recent-img img {
+	width: 130px;
+	border-radius: 6px;
+	height: 70px;
+	object-fit: cover;
+}
+
+.blog-detail .recent-blog .recent-box .recent-content {
+	padding-left: 10px;
+}
+
+.blog-detail .recent-blog .recent-box .recent-content h4 {
+	font-size: 14px;
+	color: #29303b;
+}
+
+.blog-detail .recent-blog .recent-box .recent-content p {
+	margin: 0;
+	font-size: 13px;
+	color: #777777;
+}
+
+.blog-detail .recent-blog .recent-box .recent-content p i {
+	margin-right: 5px;
+	color: #8dc63e;
+}
+
+.blog-detail .recent-blog .recent-box .recent-img figure {
+	margin: 0;
+}
+
+.elearing_blog .crd-inner p.website-text {
+	height: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.sabButton {
+	background-color: #8dc63e;
+	color: #fff;
+	padding: 13px 40px 13px 40px;
+	border-radius: 50px !important;
+	letter-spacing: 0;
+	border: 1px solid var(--secon-color);
+	font-size: 13px;
+}
+
+.pagination_cont ul {
+	display: flex !important;
+	justify-content: space-around !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.pagination_cont ul li {
+	list-style: none;
+}

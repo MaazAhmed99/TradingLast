@@ -1,0 +1,144 @@
+/* profile section css starts here */
+.profile-input {
+  width: 100%;
+  padding: 10px 32px;
+}
+
+figure {
+  margin: 0;
+}
+.profile a {
+  outline: none !important;
+}
+.profile {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.profile h2.profile-heading {
+  color: #2a263d;
+  font-size: 43px;
+  font-weight: 700;
+}
+.profile h3.username {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
+.profile-img img {
+  margin-top: -96px;
+}
+.profile button.logout-btn {
+  background-color: #f35f63;
+  color: #ffffff;
+  padding: 13px 45px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.profile .img-and-username-wrapper {
+  padding: 11px;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+  border-radius: 0;
+}
+.profile-tabs-wrapper {
+  padding: 10px 0px;
+  border: 1px solid #dadada;
+}
+.profile-tabs-wrapper .nav-pills .nav-link.active {
+  background: transparent;
+  color: inherit;
+}
+.profile .profile-row {
+  padding-top: 100px;
+}
+.profile-img {
+  position: relative;
+}
+.profile-img .edit-img a {
+  position: absolute;
+  right: 23%;
+  bottom: 2px;
+  background: #eeeeee;
+  padding: 8px;
+  display: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: #f35f63;
+}
+.profile .profile-links-wrapper {
+  padding: 30px;
+  padding-bottom: 81px;
+}
+.profile .profile-links-wrapper a.nav-link {
+  color: #2a263d !important;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 600;
+}
+@media (max-width: 926px) {
+  .edit-img {
+    position: relative;
+  }
+  .profile-img .edit-img a {
+    right: 43%;
+  }
+}
+@media (max-width: 630px) {
+  .edit-img {
+    position: relative;
+  }
+  .profile-img .edit-img a {
+    right: 43%;
+    bottom: -9px;
+  }
+}
+/* account form css starts here */
+.profile .profile-row .heading h2 {
+  font-size: 20px;
+  color: #2A263D;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+.account-form-wrapper input {
+  border-radius: 0px;
+  border: 1px solid #b8b8b8;
+}
+.profile .account-form-wrapper label {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile .account-form-wrapper button.btn-submit {
+  background: #f35f63;
+  padding: 15px 40px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+}
+h3.form-heading {
+  font-size: 30px;
+  color: #2a263d;
+  padding-bottom: 15px;
+}
+.account-form-wrapper form {
+  margin-top: 34px;
+}
+/* account form css ends here */
+@media (max-width: 768px) {
+.profile h2.profile-heading {
+  text-align: center;
+}
+.profile button.btn.btn-large {
+  margin: 0px auto;
+  display: table;
+}
+.profile  .profile-pic-container {
+  margin: 0px auto;
+}
+}

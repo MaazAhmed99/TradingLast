@@ -1,0 +1,277 @@
+body {
+    background-color: #f9f9f9;
+}
+figure {
+    padding: 0;
+}
+/* Table Css Start Here */
+.productCart .tableDv .button-group a.btn.grey {
+    background: #EEEEEE;
+    color: #000;
+}
+.productCart .heading {
+    padding-bottom: 40px;
+}
+.productCart table {
+    width: 100%;
+}
+.productCart .tableDv {
+    background: #fff;
+    margin: 0 10px;
+    padding: 35px 30px;
+    border-radius: 20px;
+
+    width: 100%;
+        /* height: auto;
+        overflow: scroll; */
+}
+.productCart .products .productDetail .product-detail {
+    display: flex;
+    align-items: center;
+}
+.productCart .products .productDetail .product-detail .img-box {
+    min-width: 140px;
+}
+.productCart table tr.topbar {
+    border-bottom: 1px solid #C5C5C5;
+    height: 40px;
+}
+.productCart .products {
+    height: 130px;
+    border-bottom: 1px solid #C5C5C5;
+}
+.productCart .tableDv th.productDetail {
+    width: 40%;
+}
+.productCart .tableDv .Proprice {
+    width: 20%;
+}
+.productCart .tableDv .qty {
+    width: 15%;
+}
+.productCart .tableDv .qty input {
+    border-radius: 0;
+    padding: 0 10px;
+    width: 80px;
+    text-align: center;
+    height: 35px;
+    outline: none;
+}
+.productCart .tableDv .addcart {
+    width: 25%;
+}
+.productCart .tableDv .addcart .ActionBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productCart table tr.topbar .productDetail {
+    text-align: center;
+}
+.productCart .tableDv .addcart .ActionBtn .cartBtn p {
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.productCart .tableDv .addcart .ActionBtn .cartBtn p a {
+    color: #e7adc4;
+}
+.productCart .tableDv .addcart .ActionBtn .cartBtn p i {
+    font-size: 15px;
+}
+.productCart .tableDv .addcart .ActionBtn .deleteBtn i {
+    color: #e7adc4;
+    cursor: pointer;
+}
+.productCart .tableDv .addcart .ActionBtn .deleteBtn i:hover {
+    color: #3b3135;
+    cursor: pointer;
+}
+.productCart .button-group {
+    margin-top: 30px;
+}
+.productCart .button-group a.btn {
+    background: #8DC63F;
+    box-shadow: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 50px;
+}
+.productCart .button-group a.btn.grey {
+    background: #EEEEEE;
+    color: #000;
+    padding: 10px 60px;
+}
+.productCart .discountCode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productCart .discountCode .head {
+    width: 250px;
+}
+.productCart .discountCode .head p {
+    margin-bottom: 0;
+    color: #525252;
+    font-size: 18px;
+    font-weight: 400;
+}
+.productCart .discountCode .applyCoupon {
+    display: flex;
+    width: 100%;
+}
+.productCart .discountCode .applyCoupon input {
+    width: 100%;
+    background: transparent;
+    border-radius: 0;
+    color: #A8A8A8;
+    outline: none;
+}
+.productCart .discountCode .applyCoupon button {
+    font-size: 12px;
+    color: #fff;
+    background: #343436;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 0px 50px 50px 0px;
+}
+.productCart .discountCode .applyCoupon input::placeholder {
+    color: #A8A8A8;
+    font-size: 11px;
+}
+.productCart .productSummary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #0003;
+    margin: 0 20px;
+}
+.productCart .productSummary h6 {
+    font-size: 12px;
+    font-weight: 500;
+}
+.productCart  .Total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 55px;
+}
+.productCart .Total p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.productCart .proceed a.btn {
+    box-shadow: none;
+    background: #8DC63F;
+    font-size: 17px;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.productCart .proceed h6 {
+    font-size: 12px;
+}
+/* Table Css End Here */
+@media (max-width: 991px) {
+    .productCart .products .productDetail .product-detail .img-box {
+        min-width: 80px;
+    }
+    .productCart .discountCode {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .productCart  .Total {
+        padding: 10px 10px;
+    }
+    .productCart .button-group {
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .productCart .proceed {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .productCart .heading {
+        padding-bottom: 30px;
+    }
+    .productCart .productSummary h6 {
+        text-align: left;
+    }
+    .productCart .productSummary {
+        margin: 0 0px;
+    }
+    .productCart .products .productDetail .product-detail .img-box {
+        min-width: 0;
+    }
+    .productCart .products .productDetail .product-detail  .name {
+        display: none;
+    }
+    .productCart table tr.topbar .productDetail {
+        text-align: left;
+    }
+    .productCart .tableDv th.productDetail {
+        width: 30%;
+    }
+    .productCart .tableDv th.productDetail {
+        width: 25%;
+    }
+    .productCart table tr.topbar th {
+        font-size: 11px;
+        text-align: center;
+    }
+    .productCart .tableDv td {
+        text-align: center;
+    }
+    .productCart .tableDv .qty input {
+        width: 50px;
+        padding: 0 0;
+    }
+    .productCart .tableDv .addcart .ActionBtn .cartBtn p {
+        font-size: 13px;
+    }
+    .productCart .tableDv .addcart .ActionBtn {
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 480px) {
+    .productCart .tableDv .qty input {
+        width: 50px;
+        padding: 0;
+        text-align: center;
+        background: transparent;
+    }
+    .productCart table tr.topbar th {
+        font-size: 11px;
+        text-align: center;
+    }
+    .productCart .tableDv .addcart .ActionBtn .cartBtn p {
+        font-size: 12px;
+    }
+    .productCart .proceed a.btn {
+        width: 100%;
+    }
+    .productCart .button-group a {
+        width: 100%;
+    }
+    .productCart .proceed a.btn {
+        width: 100%;
+    }
+    .productCart .proceed {
+        margin: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .productCart .discountCode .applyCoupon input {
+        background: #0000000a;
+        color: #A8A8A8;
+    }
+    .productCart .button-group a.btn {
+        margin-bottom: 20px;
+    }
+}
